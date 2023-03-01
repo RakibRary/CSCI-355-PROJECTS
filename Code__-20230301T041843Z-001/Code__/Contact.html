@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Website</title>
+	<link rel="stylesheet" href="Contact_Style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<link rel="stylesheet" href="clock.css" />
+
+</head>
+<body>
+	<header>
+		<h1>Contact</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Services.html">Services</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+	<main>
+		<p style="margin-left:2%; font-family: 'Courier New', Courier, monospace;font-size: 24px;">
+			Dear customer, please feel free to reach out for any concerns you have, weather
+			you are unsatisfied with our product, damages, questions, or if you wan to leave a nice
+			review! Thank you!
+		</p>
+
+<div style="text-align:center;">
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br><br>
+	  
+			<label>Gender:</label>
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female" required>
+			<label for="female">Female</label><br><br>
+	  
+			<label>Subject:</label>
+			<input type="checkbox" id="sales" name="subject" value="sales">
+			<label for="sales">Sales</label>
+			<input type="checkbox" id="support" name="subject" value="support">
+			<label for="support">Support</label><br><br>
+	  
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="5" required></textarea><br><br>
+	  
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		  </form>
+		  <form>
+			<p>Welcome to the newsletter subscribe form!!!</p>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br><br>
+			  
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br><br>
+			  
+			<input type="submit" value="Subscribe">
+			<input type="reset" value="Reset">
+		</form>
+	</div>
+
+		<div class="loveMe"></div>
+
+	<div class ="search">
+		<input type="text" class="input" placeholder="Search...">
+		<button class="btn">
+			<i class = "fas fa-search"></i>
+		</button>
+	</div>
+		<button class="toggle">Dark mode</button>
+		<div class="clock-container">
+			<div class="clock">
+				<div class="needle hour"></div>
+				<div class="needle minute"></div>
+				<div class="needle second"></div>
+				<div class="center-point"></div>
+			</div>
+
+			<div class="time"></div>
+			<div class="date"></div>
+		</div>
+
+		<script src="Clock.js"></script>
+	</main>
+	<script src="Contact_js.js"></script>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<footer>
+		<p>Copyright © 2023 My Website<br> Rakib Rary, Shailesh Ghale, Djiedjom Gbonkou, Hang Lin</p>
+	</footer>
+</body>
+</html>
